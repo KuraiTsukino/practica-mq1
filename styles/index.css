@@ -41,7 +41,6 @@ nav {
 }
 
 .nav-bar-ul {
-  width: 1200px;
   margin: 0 auto;
   display: flex;
   justify-content: space-evenly;
