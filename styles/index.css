@@ -26,6 +26,10 @@ h2 {
     align-items: center;
 }
 
+h4 {
+    text-align: center;
+} 
+
 nav {
   background-color: rgb(25,33,41);
 }
@@ -51,32 +55,58 @@ nav {
   text-align: center;
 }
 
+main {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+section{
+    background-color: lavender;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+} 
+
 .content{
-    width: 20%;
     padding: 20px;
     font-size: 15px ;
-    border: 5px solid white ;
-    margin: 2 ;
     text-align: justify;
     background-color: rgb(196, 235, 247);
+    display: flex;
+    flex-direction: column;
 }
 
 footer{
-    padding: 1%;
-    margin: 2px;
-    background-color:rgb(243, 227, 248);
+    margin: 0;
+    padding: 0;
+    background-color:aquamarine;
     display: flex;
     text-align: center;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .footer{
-    width: 40%;
+    margin: 0;
+    padding: 0;
     font-size: 15px ;
     text-align: justify;
 }
 
+footer ul{
+    list-style-type: none;
+}
+
+.imagen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
 .img{
-    width:60%;
+    width: 90%;
+    height: auto;
 }
 
 .ej{
