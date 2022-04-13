@@ -87,7 +87,7 @@ article p {
 
 footer{
     margin: 0;
-    padding: 0;
+    padding: 10px;
     background-color:aquamarine;
     display: flex;
     text-align: center;
@@ -129,5 +129,9 @@ footer ul{
 
     .nav-bar-ul {
         flex-direction: column;
+    }
+
+    .footer {
+        padding: 10px;
     }
 }
