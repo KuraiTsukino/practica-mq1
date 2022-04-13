@@ -40,7 +40,7 @@ nav {
   font-size: 15px;
 }
 
-.nav-bar-ul {
+.nav-bar-ul {   
   margin: 0 auto;
   display: flex;
   justify-content: space-evenly;
