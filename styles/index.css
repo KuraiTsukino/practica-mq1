@@ -29,21 +29,35 @@ h2 {
 nav {
   background-color: rgb(25,33,41);
 }
+
 .nav-bar {
   padding: 14px 0 14px 0;
 }
+
 .nav-bar a { 
   color: white;
   text-decoration: none;
   font-size: 15px;
 }
+
 .nav-bar-ul {
   width: 1200px;
   margin: 0 auto;
   display: flex;
   justify-content: space-evenly;
 }
+
 .nav-bar-ul li {
   list-style-type: none;
   text-align: center;
+}
+
+.content{
+    width: 20%;
+    padding: 20px;
+    font-size: 15px ;
+    border: 5px solid white ;
+    margin: 2 ;
+    text-align: justify;
+    background-color: rgb(196, 235, 247);
 }
