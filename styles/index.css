@@ -67,6 +67,14 @@ section{
     padding: 20px;
 } 
 
+article {
+    margin: 10px;
+}
+
+article p {
+    text-align: justify;
+}
+
 .content{
     padding: 20px;
     font-size: 15px ;
@@ -102,6 +110,12 @@ footer ul{
     align-items: center;
     justify-content: center;
     align-content: center;
+}
+
+.imag {
+    width: 70%;
+    height: 70%;
+align-self: center;
 }
 
 .img{
