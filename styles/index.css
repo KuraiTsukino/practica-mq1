@@ -61,3 +61,25 @@ nav {
     text-align: justify;
     background-color: rgb(196, 235, 247);
 }
+
+footer{
+    padding: 1%;
+    margin: 2px;
+    background-color:rgb(243, 227, 248);
+    display: flex;
+    text-align: center;
+}
+
+.footer{
+    width: 40%;
+    font-size: 15px ;
+    text-align: justify;
+}
+
+.img{
+    width:60%;
+}
+
+.ej{
+    max-width: 100%;
+}
