@@ -131,6 +131,10 @@ footer ul{
         flex-direction: column;
     }
 
+    footer {
+        padding: 10px;
+    }
+
     .footer {
         padding: 11px;
     }
